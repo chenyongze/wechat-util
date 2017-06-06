@@ -1,0 +1,30 @@
+{
+  "pages":[
+    "pages/latest/latest",
+    "pages/map/map"
+      ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "DT",
+    "navigationBarTextStyle":"black",
+    "enablePullDownRefresh":"true"
+  },
+  "tabBar": {
+    "color":"#000",
+    "selectedColor":"#56abe4",
+    "backgroundColor":"#fff",
+    "borderStyle":"white",
+    "list": [{
+      "pagePath": "pages/latest/latest",
+      "text": "blog",
+      "iconPath":"images/node.png",
+      "selectedIconPath":"images/node_on.png"
+    }, {
+      "pagePath": "pages/map/map",
+      "text": "关于我们",
+      "iconPath":"images/hotest.png",
+      "selectedIconPath":"images/hotest_on.png"
+    }]
+  }
+}

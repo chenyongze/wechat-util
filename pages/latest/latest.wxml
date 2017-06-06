@@ -1,0 +1,24 @@
+<!--latest.wxml-->
+<view class="container">
+  <view class="topic-main">
+      <block wx:for="{{latest}}">
+        <view class="topic-item" index="{{index}}" id="{{item.n_id}}">
+        
+            <view class="topic-info">
+                <view class="topic-inner">
+                    <view class="topic-left">
+                        <view class="topic-title"><text>{{item.news_title}}</text></view>
+                        <view >
+                            <text class="member-nickname">{{item.news_source}}</text>
+                        </view>
+                    </view>
+                </view>
+            </view>
+        </view>
+      </block>
+  </view>
+
+  <loading hidden="{{hidden}}">
+    加载中...
+  </loading>
+</view>
